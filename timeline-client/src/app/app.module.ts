@@ -31,9 +31,9 @@ import { OktaAuthModule } from '@okta/okta-angular';
     NgxTimelineModule,
     ModalModule.forRoot(),
     OktaAuthModule.initAuth({
-      issuer: 'https://{yourOktaDomain}/oauth2/default',
+      issuer: 'https://dev-643050.okta.com/oauth2/default',
       redirectUri: 'http://localhost:4200/implicit/callback',
-      clientId: '{yourClientId}'
+      clientId: '0oa109vptj5UaV3Lv4x6'
     })
   ],
   providers: [],

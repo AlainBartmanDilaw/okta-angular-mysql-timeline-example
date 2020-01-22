@@ -1,8 +1,8 @@
 const OktaJwtVerifier = require('@okta/jwt-verifier');
 
 const oktaJwtVerifier = new OktaJwtVerifier({
-  clientId: '{yourClientId}',
-  issuer: 'https://{yourOktaDomain}/oauth2/default'
+  clientId: '0oa109vptj5UaV3Lv4x6',
+  issuer: 'https://dev-643050.okta.com/oauth2/default'
 });
 
 async function oktaAuth(req, res, next) {
